@@ -8,6 +8,8 @@ int main()
 {
 	SetConsoleOutputCP(1251);
 
+	//We have to use statically declared arrays, because we haven't learned about dynamic allocation yet
+	//So we declare a reasonably-sized array, ask user to enter the size of <= 100 and store pointerToEnd
 	double generatedArray[100];
 	int n;
 	cout << "Введіть n від 2 до 100: ";
